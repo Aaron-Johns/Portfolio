@@ -92,10 +92,10 @@ export default function Portfolio() {
             <Linkedin className="w-4 h-4 text-zinc-600 dark:text-zinc-400" />
             <span>LinkedIn</span>
           </a>
-          <button onClick={() => window.print()} className="flex items-center gap-2 bg-emerald-100 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 px-4 py-2 rounded-lg border border-emerald-200 dark:border-emerald-500/20 hover:bg-emerald-200 dark:hover:bg-emerald-500/20 transition-colors print:hidden cursor-pointer">
+          <a href="/resume.pdf" download="Aaron_Johns_Resume.pdf" className="flex items-center gap-2 bg-emerald-100 dark:bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 px-4 py-2 rounded-lg border border-emerald-200 dark:border-emerald-500/20 hover:bg-emerald-200 dark:hover:bg-emerald-500/20 transition-colors print:hidden cursor-pointer">
             <FileDown className="w-4 h-4" />
             <span className="font-medium">Download PDF Resume</span>
-          </button>
+          </a>
         </motion.div>
       </motion.section>
 
